@@ -31,6 +31,13 @@ io-navbar
     font-weight: bold;
 
 }
+.navbar-elements{
+	font-size: 2rem;
+	color: black;
+}
+.slideshow-body > *{
+	height: 95vh;
+}
 .body-title
 {
     margin-top: 35px;
@@ -41,23 +48,23 @@ io-navbar
     text-align: left;
     top: 100px;
     width: 50vw;
-    left: 25vw;
+	margin: 0 10rem;
 }
 .all-content
 {
 
     background-image: url(iosvg2.svg);
-    background-position: 20% 0%;
 
     height: 1600px;
     background-repeat: no-repeat;
     background-repeat: repeat-y;
+	margin: 0 35rem;
 }
 .body-content {
 
     background-image: url(iosvg.svg);
-    background-position: 50% 0%;
 
     height: 600px;
     background-repeat: no-repeat;
+	margin: 0 35rem;
 }
