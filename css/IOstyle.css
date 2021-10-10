@@ -1,0 +1,63 @@
+io-navbar
+{
+    background-color: white !important;
+}
+
+#myNavbar
+{
+    text-transform: uppercase;
+    margin-right: 1vw;
+    font-color: #1a1e21;
+    color: #1a1e21;
+}
+
+.IO-primary
+{
+    color: #26d5fa;
+}
+.IO-secondary
+{
+    color: #ff7575;
+}
+.IO-yellow
+{
+    color: #ffc94c;
+}
+
+.IO-Title
+{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.body-title
+{
+    margin-top: 35px;
+}
+.contant-aligner
+{
+    position: relative;
+    text-align: left;
+    top: 100px;
+    width: 50vw;
+    left: 25vw;
+}
+.all-content
+{
+
+    background-image: url(iosvg2.svg);
+    background-position: 20% 0%;
+
+    height: 1600px;
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+}
+.body-content {
+
+    background-image: url(iosvg.svg);
+    background-position: 50% 0%;
+
+    height: 600px;
+    background-repeat: no-repeat;
+}
