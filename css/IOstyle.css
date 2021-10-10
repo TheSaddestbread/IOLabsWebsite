@@ -52,15 +52,15 @@ io-navbar
 }
 .all-content
 {
-background-image: url(iosvg2.svg);
-height: 1600px;
-background-repeat: no-repeat;
-background-repeat: repeat-y;
-margin: 0 15%;
+	background-image: url(iosvg2.svg);
+	height: 1600px;
+	background-repeat: no-repeat;
+	background-repeat: repeat-y;
+	margin: 0 15%;
 }
 .body-content {
-background-image: url(iosvg.svg);
-height: 600px;
-background-repeat: no-repeat;
-margin: 0 15%;
+	background-image: url(iosvg.svg);
+	height: 600px;
+	background-repeat: no-repeat;
+	margin: 0 15%;
 }
