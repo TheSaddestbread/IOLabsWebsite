@@ -64,3 +64,13 @@ io-navbar
 	background-repeat: no-repeat;
 	margin: 0 15%;
 }
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-weight: 450;
+    font-family: serif;
+    font-size: 1.875rem;
+    margin: 0 1rem;
+}
+.navbar-right{
+	margin-right: 0 !important;
+}
