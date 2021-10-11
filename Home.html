@@ -13,12 +13,17 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- Google fonts-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="{% static 'home\img\svg\ioLogoNoText.svg' %}" />
+
+
     <!-- custom css -->
     <link rel="stylesheet" href="css/slideshow.css">
     <link rel="stylesheet" href="css/IOstyle.css">
@@ -52,23 +57,23 @@
     <div class="slideshow-container">
 
         <div class="mySlides fade">
-            <img src="img/1.png" style="width:100%;opacity: 1;">
+            <img src="img/hack.jpg" class = "gradient" style="width:100%;opacity: 1;">
         </div>
 
         <div class="mySlides fade">
-            <img src="img/1.png" style="width:100%;opacity: 1;">
+            <img src="img/1.png" class = "gradient" style="width:100%;opacity: 1;">
         </div>
 
         <div class="mySlides fade">
-            <img src="img/1.png" style="width:100%;opacity: 1;">
+            <img src="img/1.png" class = "gradient" style="width:100%;opacity: 1;">
         </div>
 
         <div class="mySlides fade">
-            <img src="img/1.png" style="width:100%;opacity: 1;">
+            <img src="img/1.png" class = "gradient" style="width:100%;opacity: 1;">
         </div>
 
         <div class="mySlides fade">
-            <img src="img/1.png" style="width:100%;opacity: 1;">
+            <img src="img/1.png" class = "gradient" style="width:100%;opacity: 1;">
         </div>
     </div>
 
@@ -158,7 +163,52 @@
         </div>
         <div class = "IO-content-closed" id="educationcontent">TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip</div>
     </div>
+
+    <button type="button" id = "eventsbutton" onclick="expandEvents()" class="IO-button"></button>
+    <div class="contant-expander-aligner">
+        <div class="IO-Title">
+            Events Lab
+        </div>
+        <div class="IO-dropdown IO-text" id = "eventstext">
+            Hackathons and Stuff
+        </div>
+        <div class = "IO-content-closed" id="eventscontent">TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip</div>
+    </div>
+
+    <button type="button" id = "opportunitiesbutton" onclick="expandOpportunities()" class="IO-button"></button>
+    <div class="contant-expander-aligner">
+        <div class="IO-Title">
+            Opportunities Lab
+        </div>
+        <div class="IO-dropdown IO-text" id = "opportunitiestext">
+            Exec recruiting info
+            Can use introduction from Google application form (or Instagram post)
+            4 job descriptions on shared drive under HR/Recruiting
+            link to apply
+        </div>
+        <div class = "IO-content-closed" id="opportunitiescontent">TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip</div>
+    </div>
 </div>
+
+<!-- footer -->
+<footer class="footer index-top">
+    <div class="footer-content">
+        <center>
+            <div class="IO-footer-text">
+                Contact Us!
+            </div>
+                <a class="IO-footer-icon btn btn-outline-light btn-social mx-3" href="https://www.instagram.com/io.labs/">
+                    <img src = "css/svg/instagram.svg"width="30" height="30">
+                </a>
+                <a class="IO-footer-icon btn btn-outline-light btn-social mx-3" href="https://www.linkedin.com/company/i-o-labs-youth-development-society/about/">
+                    <img src = "css/svg/linkedin.svg"width="30" height="30">
+                </a>
+                <a class="IO-footer-icon btn btn-outline-light btn-social mx-3" href="mailto:iolabsyouth@gmail.com">
+                    <img src = "css/svg/envelope-fill.svg"width="30" height="30">
+                </a>
+            </div>
+    </center>
+</footer>
 
 </body>
 <!-- Optional JavaScript -->
