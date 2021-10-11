@@ -27,16 +27,18 @@ io-navbar
 .IO-Title
 {
     font-size: 55px;
-    text-transform: uppercase;
     font-weight: bold;
-
+}
+.upper
+{
+    text-transform: uppercase;
 }
 .navbar-elements{
 	font-size: 2rem;
 	color: black;
 }
 .slideshow-body > *{
-	height: 95vh;
+	height: 97vh;
 }
 .body-title
 {
@@ -46,21 +48,102 @@ io-navbar
 {
     position: relative;
     text-align: left;
-    top: 100px;
+    width: 50vw;
+    top: 70px;
+	margin: 0 10rem;
+}
+.contant-expander-aligner
+{
+    position: relative;
+    text-align: left;
     width: 50vw;
 	margin: 0 10rem;
+    top: -90px;
+
 }
 .all-content
 {
-	background-image: url(iosvg2.svg);
-	height: 1600px;
-	background-repeat: no-repeat;
-	background-repeat: repeat-y;
-	margin: 0 15%;
+	background-image: url(svg/iosvg2.svg);
+
+	height: 1600px;
+
+	background-repeat: no-repeat;
+
+	background-repeat: repeat-y;
+
+	margin-left: 15%;
+    margin-top: 140px;
 }
 .body-content {
-	background-image: url(iosvg.svg);
-	height: 600px;
-	background-repeat: no-repeat;
-	margin: 0 15%;
+
+    background-image: url(svg/iosvg.svg);
+
+    height: 600px;
+
+    background-repeat: no-repeat;
+
+    margin: 0 15%;
+}
+
+.IO-dropdown
+{
+    margin-top: 20px;
+}
+
+.IO-content-closed
+{
+    display: none;
+}
+.IO-content-open
+{
+    display: block;
+}
+.IO-text
+{
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    -webkit-text-stroke: 0.1px #1a1e21;
+}
+.IO-title-logo
+{
+    background-image: url(svg/ioLogo-nav.svg);
+    background-repeat: no-repeat;
+    background-position: 0% -10px;
+    height: 45px;
+    width: 230px;
+
+}
+.top-margin-small
+{
+    margin-top: 20px;
+}
+.top-margin-mid
+{
+    margin-top: 50px;
+}
+.top-margin-large
+{
+    margin-top: 100px;
+}
+.IO-button
+{
+    background-image: url(svg/arrow.svg);
+    border:none;
+    transition-duration: 0.4s;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    background-color: rgba(255,255,255,0);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+}
+.IO-button:hover
+{
+    background-color: #1a1e21;
+}
+
+.IO-button-active
+{
+    background-image: url(svg/downarrow.svg);
 }

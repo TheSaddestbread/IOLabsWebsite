@@ -13,9 +13,12 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <!-- custom css -->
     <link rel="stylesheet" href="css/slideshow.css">
     <link rel="stylesheet" href="css/IOstyle.css">
@@ -31,7 +34,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">WebSiteName</a>
+            <a class="navbar-brand" href="#"><div class="IO-title-logo"></div></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right" style="margin-right: 5vw">
@@ -83,33 +86,77 @@
 <!-- what we do content -->
 <div class="body-content">
     <div class="contant-aligner">
-        <div class="IO-Title IO-secondary">
+        <div class="IO-Title upper IO-secondary">
             our mission
         </div>
-        ThisThisThisThisThisThisThisThisThisThis ThisThisThisThisThisThiThisThisThisThisT hisThisThis ThisThisThisThisThisThisThi sThisThisThisThisThisTh isThissThisThisThisThisThisThisThisTh isThisThisThisThisThisThisThisThisThisThisThisThisThisThisThis
-
+        <div class = "IO-text">
+            I/O LABS is a provincially incorporated, non-profit organization dedicated to assisting youth in accessing impactful STEM education and opportunities. We raise funds to ensure our programs are always free and focus on authentic engagement with underrepresented communities.
+        </div>
         <div class="body-title">
-            <div class="IO-Title IO-primary">
+            <div class="IO-Title upper IO-primary">
                 what we do
             </div>
-            ThisThisThisThisThisThisThisThisThisThis ThisThisThisThisThisThiThisThisThisThisT hisThisThis ThisThisThisThisThisThisThi sThisThisThisThisThisTh isThissThisThisThisThisThisThisThisTh isThisThisThisThisThisThisThisThisThisThisThisThisThisThisThis
+            <div class = "IO-text">
+                We are a youth driven organization that aims to foster STEM accessibility, proficiency and engagement through its Advocacy Lab, Education Lab, Events Lab, and Opportunities Lab.
+            </div>
         </div>
     </div>
 </div>
 <!-- Drop Down Content -->
 <div class="all-content">
-    <div class="contant-aligner">
-        <div class="IO-Title IO-secondary">
-            our mission
+    <button type="button" id = "advocacybutton" onclick="expandAdvocacy()" class="IO-button"></button>
+    <div class="contant-expander-aligner">
+        <div class="IO-Title">
+            Advocacy Lab
         </div>
-        ThisThisThisThisThisThisThisThisThisThis ThisThisThisThisThisThiThisThisThisThisT hisThisThis ThisThisThisThisThisThisThi sThisThisThisThisThisTh isThissThisThisThisThisThisThisThisTh isThisThisThisThisThisThisThisThisThisThisThisThisThisThisThis
-
-        <div class="body-title">
-            <div class="IO-Title IO-primary">
-                what we do
+        <div class="IO-dropdown IO-text" id = "advocacytext">
+            <ul>
+                <li>
+                    We work with community groups to understand and address the barriers faced by underserved populations to STEM educational programming and other opportunities.
+                </li>
+                <li>
+                    We initiate projects that focus on improving the accessibility, and the relevance and design of these programs and opportunities.
+                </li>
+                <li>
+                    We collaborate with educational institutions on projects that aim to create systemic change.
+                </li>
+            </ul>
+        </div>
+        <div class = "IO-content-closed" id="advocacycontent">
+            <img src="css/svg/ioLogo.svg"width="200" height="200">
+            <div class="IO-text">
+                <blockquote>
+                <q>Governance is inclusive when it effectively serves and engages all people; takes into account gender and other facets of personal identity; and when institutions, policies, processes and services are accessible, accountable and responsive to all members of society.</q>
+                </blockquote>
+                <ul>
+                    <li>
+                        We work with community groups to understand and address the barriers faced by underserved populations to STEM educational programming and other opportunities.
+                    </li>
+                    <li>
+                        We initiate projects that focus on improving the accessibility, and the relevance and design of these programs and opportunities.
+                    </li>
+                    <li>
+                        We collaborate with educational institutions on projects that aim to create systemic change.
+                    </li>
+                </ul>
             </div>
-            ThisThisThisThisThisThisThisThisThisThis ThisThisThisThisThisThiThisThisThisThisT hisThisThis ThisThisThisThisThisThisThi sThisThisThisThisThisTh isThissThisThisThisThisThisThisThisTh isThisThisThisThisThisThisThisThisThisThisThisThisThisThisThis
+            <div class="top-margin-mid"></div>
+            <img src="img/Beakerhead_logo_revised.jpg"width="auto" height="50px">
+            <div class="IO-text top-margin-small">
+                Beakerhead is Calgary's largest STEAM exhibition. Their mandate is to globally advance education at the crossroads of art, science and engineering. Beakerhead believes that mixing diverse ideas, people and conversations accelerates creativity and innovation so we embrace the principles of equality, fairness and accessibility as a commitment to community.
+            </div>
         </div>
+    </div>
+
+    <button type="button" id = "educationbutton" onclick="expandEducation()" class="IO-button"></button>
+    <div class="contant-expander-aligner">
+        <div class="IO-Title">
+            Education Lab
+        </div>
+        <div class="IO-dropdown IO-text" id = "educationtext">
+            Free computer programming education for children from low-income households, including workshops, one-on-one mentorship, and coding challenges for prizes.
+        </div>
+        <div class = "IO-content-closed" id="educationcontent">TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip TsdfodishFipdshfip</div>
     </div>
 </div>
 
@@ -122,5 +169,6 @@
 
 <!-- custom css -->
 <script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript" src="js/buttons.js"></script>
 
 </html>
