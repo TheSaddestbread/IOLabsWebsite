@@ -34,11 +34,11 @@ io-navbar
     text-transform: uppercase;
 }
 .navbar-elements{
-	font-size: 2rem;
-	color: black;
+    font-size: 2rem;
+    color: black;
 }
 .slideshow-body > *{
-	height: 97vh;
+    height: 97vh;
 }
 .body-title
 {
@@ -50,32 +50,31 @@ io-navbar
     text-align: left;
     width: 50vw;
     top: 70px;
-	margin: 0 10rem;
+    margin: 0 10rem;
 }
 .contant-expander-aligner
 {
     position: relative;
     text-align: left;
     width: 50vw;
-	margin: 0 10rem;
+    margin: 0 10rem;
     top: -90px;
 
 }
 .all-content
 {
-	background-image: url(svg/iosvg2.svg);
+    background-image: url(svg/iosvg2.svg);
 
-	height: 1600px;
+    height: 1600px;
 
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 
-	background-repeat: repeat-y;
+    background-repeat: repeat-y;
 
-	margin-left: 15%;
+    margin-left: 15%;
     margin-top: 140px;
 }
 .body-content {
-<<<<<<< HEAD
 
     background-image: url(svg/iosvg.svg);
 
@@ -147,20 +146,4 @@ io-navbar
 .IO-button-active
 {
     background-image: url(svg/downarrow.svg);
-=======
-	background-image: url(iosvg.svg);
-	height: 600px;
-	background-repeat: no-repeat;
-	margin: 0 15%;
-}
-.navbar-default .navbar-nav>li>a {
-    color: #000;
-    font-weight: 450;
-    font-family: serif;
-    font-size: 1.875rem;
-    margin: 0 1rem;
-}
-.navbar-right{
-	margin-right: 0 !important;
->>>>>>> 3c4f9234cf00aff1b026c1dfc4e1249914afd5ef
 }
