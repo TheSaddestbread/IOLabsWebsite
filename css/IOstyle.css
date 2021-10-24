@@ -169,6 +169,21 @@ io-navbar
     margin-left: 20px;
     -webkit-text-stroke: 1px black;
 }
+.IO-link-title
+{
+    text-decoration: underline;
+    font-size: 20px;
+    color: #1a1e21;
+}
+.IO-image
+{
+    margin: 10px;
+    border-radius: 50%;
+    outline: #26d5fa solid 5px;
+    max-width: 25%;
+    height: auto;
+    margin-bottom: 20px;
+}
 .IO-footer-icon-spacing
 {
     height: 40px;
