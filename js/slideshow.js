@@ -24,3 +24,32 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+
+var HackslideIndex = 1;
+HackshowSlides(HackslideIndex);
+
+function HackplusSlides(n) {
+    showSlides(HackslideIndex += n);
+}
+
+function HackcurrentSlide(n) {
+    showSlides(HackslideIndex = n);
+}
+
+function HackshowSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("HackmySlides");
+    var dots = document.getElementsByClassName("Hackdot");
+
+    if (n > slides.length) {HackslideIndex = 1}
+    if (n < 1) {HackslideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[HackslideIndex-1].style.display = "block";
+    dots[HackslideIndex-1].className += " active";
+}

@@ -5,7 +5,28 @@
     position: relative;
     vertical-align: middle;
     opacity: 0.75;
-    height: 112340vh;
+    height: 100vh;
+    min-width: auto;
+    object-fit: fill;
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+}
+.regular-slideshow-container {
+    position: relative;
+    vertical-align: middle;
+    opacity: 0.75;
+    min-width: auto;
+    object-fit: fill;
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+}
+
+.HackmySlides
+{
+    display: block;
+    position: relative;
+    vertical-align: middle;
+    height: auto;
     min-width: auto;
     object-fit: fill;
 
@@ -72,7 +93,8 @@ img {vertical-align: middle;}
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot,
+.Hackdot {
     cursor: pointer;
     height: 25px;
     width: 25px;
