@@ -27,7 +27,7 @@ io-navbar
 
 .IO-Title
 {
-    font-size: 55px;
+    font-size: 5.4rem;
     font-weight: bold;
 }
 .upper
@@ -150,7 +150,6 @@ io-navbar
     background-image: url(svg/downarrow.svg);
 }
 
-
 .footer-content{
     margin-left: -55%;
 
@@ -196,17 +195,100 @@ io-navbar
     color: #1a1e21;
 }
 
-.team-member img {
-    overflow: hidden;
-    width: 20rem;
-    border: 0.5rem solid rgba(0, 0, 0, 0.1);
-}
-.team-member h4, .team-member .h4 {
-    margin-top: 1.5rem;
-    margin-bottom: 0;
-}
+.exec-image {
+    /* set size of the image to be within the div it is inside */
+    width: auto;
+    height: 24vh;
 
+    border: 1.5rem solid rgba(255, 230, 0, 0.514);
+    border-radius: 15px 40px; /* Rounded corners */
+}
+.exec-side-image {
+    /* set the image to fit the div */
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    flex-shrink: 0;
+    border: 0.12rem solid rgba(41, 41, 41, 0.774)
+    }
+.fill-image {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+    
+}
+.exec-profile{
+    width: 24vh;
+}
 .img-fluid-sponsors {
     height: auto;
     width: calc(100%/4.5 - 1rem);
+}
+.executives-body{
+    margin-top: 15vh;
+    margin-left: 15%;
+}
+.exec-name
+{
+    font-size: 2.5rem;
+    font-weight: thin;
+    letter-spacing: 0.5px;
+    color: #393d3f; 
+}
+.exec-position
+{
+    font-size: 1.5rem;
+    font-weight: thin;
+    letter-spacing: 0.5px;
+    color: #919191; 
+}
+.person-profile {
+    /*move the image to the center */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 30vh;
+    width: 70vw;
+    border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px 120px 45px 20px; /* Rounded corners */
+}
+.image-caption {
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0.8rem;
+    text-align: center;
+}
+.four-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.title-caption {
+    color:#505050;
+    font-size: 2.5rem;
+}
+.center-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.vertical-center-content {
+    position: relative;
+    top: 10%;
+}
+.bottom-highlight
+{
+    background-color: #ffca4e;
+    padding-bottom: 3rem;
 }

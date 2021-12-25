@@ -4,6 +4,7 @@ var Events = false;
 var Opportunities = false;
 var Team = false;
 var Sponsors = false;
+var FAQ = false;
 
 function expandAdvocacy() {
     var text = "<ul><li>We work with community groups to understand and address the barriers faced by underserved populations to STEM educational programming and other opportunities.</li><li>We initiate projects that focus on improving the accessibility, and the relevance and design of these programs and opportunities.</li><li> We collaborate with educational institutions on projects that aim to create systemic change.</li></ul>";
@@ -62,7 +63,7 @@ function expandEvents() {
     button.remove("IO-button-active");
 }
 function expandOpportunities() {
-    var text = "Free computer programming education for children from low-income households, including workshops, one-on-one mentorship, and coding challenges for prizes.\n"
+    var text = "Executive positions at I/O Labs are currently open! Don’t miss your chance to make your mark!\n"
     var OpenContent = document.getElementById("opportunitiescontent").classList;
     var button = document.getElementById("opportunitiesbutton").classList;
     var ClosedContent = document.getElementById("opportunitiestext");
@@ -100,13 +101,33 @@ function expandExecs() {
 }
 
 function expandSponsors() {
-    var text = "Free computer programming education for children from low-income households, including workshops, one-on-one mentorship, and coding challenges for prizes.\n"
+    var text = " <h3>The importance of Sponsors</h3>Sponsoring us is the best way of supporting us in our endeavours into helping underserved communities through STEM."
     var OpenContent = document.getElementById("sponsorscontent").classList;
     var button = document.getElementById("sponsorsbutton").classList;
     var ClosedContent = document.getElementById("sponsorstext");
 
     Sponsors = !Sponsors;
     if(Sponsors)
+    {
+        button.add("IO-button-active");
+        OpenContent.remove("IO-content-closed");
+        ClosedContent.innerText = "";
+        return;
+    }
+    ClosedContent.innerHTML = text;
+    OpenContent.add("IO-content-closed");
+    button.remove("IO-button-active");
+}
+
+
+function expandFAQ() {
+    var text = "...\n"
+    var OpenContent = document.getElementById("FAQcontent").classList;
+    var button = document.getElementById("FAQbutton").classList;
+    var ClosedContent = document.getElementById("FAQtext");
+
+    FAQ = !FAQ;
+    if(FAQ)
     {
         button.add("IO-button-active");
         OpenContent.remove("IO-content-closed");

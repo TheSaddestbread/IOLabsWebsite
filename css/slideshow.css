@@ -112,16 +112,18 @@ img {vertical-align: middle;}
 }
 .slideshow-title{
     font-family: "Open Sans", sans-serif;
+    text-shadow: -2px -2px 0 rgb(66, 66, 66,0.3),2px -2px 0 rgb(66, 66, 66,0.3), -2px 2px 0 rgb(66, 66, 66,0.3), 2px 2px 0 rgb(66, 66, 66,0.3);
     font-size: calc(7vw + 15px);
     text-align: right;
     color: white;
     top: 35vh;
-    left: 20vw;
+    left: 10vw;
     margin-top: -50px;
     position: absolute;
 }
 .slideshow-text{
     font-family: "Open Sans", sans-serif;
+    text-shadow: -1px -1px 0 rgb(66, 66, 66,0.3),1px -1px 0 rgb(66, 66, 66,0.3), -1px 1px 0 rgb(66, 66, 66), 1px 1px 0 rgb(66, 66, 66);
     font-size: calc(1.5vw + 1px);
     text-align: left;
     color: white;
