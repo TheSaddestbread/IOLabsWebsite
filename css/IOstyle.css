@@ -292,3 +292,8 @@ io-navbar
     background-color: #ffca4e;
     padding-bottom: 3rem;
 }
+
+.mx-auto{
+	height: auto;
+	max-width: 90%;
+}
